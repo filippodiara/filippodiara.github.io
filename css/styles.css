@@ -19,9 +19,9 @@
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
+  --bs-danger: #e9887C;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-dark: black;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -199,11 +199,11 @@ sup {
 }
 
 a {
-  color: #303030;
+  color: #1f6192;
   text-decoration: underline;
 }
 a:hover {
-  color: #888888;
+  color: #26b5c9;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2936,6 +2936,9 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+
+
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
@@ -7364,15 +7367,15 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #37718E !important;
 }
 
 .text-success {
-  color: #198754 !important;
+  color: #3ead7a !important;
 }
 
 .text-info {
-  color: #0dcaf0 !important;
+  color: #E3B17D !important;
 }
 
 .text-warning {
@@ -7380,15 +7383,15 @@ textarea.form-control-lg {
 }
 
 .text-danger {
-  color: #dc3545 !important;
+  color: #E9887C !important;
 }
 
 .text-light {
-  color: #f8f9fa !important;
+  color: #97CFBB !important;
 }
 
 .text-dark {
-  color: #212529 !important;
+  color: #5E8DA4 !important;
 }
 
 .text-white {
@@ -7404,7 +7407,7 @@ textarea.form-control-lg {
 }
 
 .text-black-50 {
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .text-white-50 {
@@ -11265,13 +11268,6 @@ body{margin-top:px;}
 
 
 
-
-
-
-
-
-
-
 /*==================================================
                   BUTTON (Generic)
 ====================================================*/
@@ -11310,4 +11306,172 @@ body{margin-top:px;}
     background-color: #2196f3;
     color: #fff;
     cursor: pointer;
+}
+
+
+
+
+
+
+/* CONTACT FORM */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: poppins;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 85%; 
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 30px;
+  position: relative;
+  float: left;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(78, 145, 212);
+  background-color: rgba(247, 250, 255);
+  padding: .75em 1rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+    width: 85%; 
+    margin-left: 10px;
+	margin-right: 30px;
+	position: relative;
+	float: left;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+
+#fs-frm [type="button"]:hover,
+#fs-frm [type="submit"]:hover,
+#fs-frm [type="reset"]:hover {
+  background-color: #4e91d4;
+  color: white;
+}
+
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+
+
+
+
+
+.btn2 {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #929292;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.btn2-general {
+    background-color: transparent;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 0px;
+    font-size: 15px;
+    padding: 8px 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn2-green {
+    border-color: ;
+    color: #929292;
+}
+
+.btn2:hover {
+  color: white;
+}
+
+.btn2-green:hover,
+.btn2-green:focus {
+    background-color: ;
+}
+
+.btn2-general:hover,
+.btn2-general:focus {
+    background-color: ;
 }
