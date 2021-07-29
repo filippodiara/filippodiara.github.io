@@ -69,7 +69,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #4e91d4;
+  color: #4c7eb0;
 }
 
 h1, .h1 {
@@ -11024,7 +11024,7 @@ body{margin-top:px;}
     border-left: 3px solid #4ac4d4;
     border-bottom-right-radius: px;
     border-top-right-radius: 4px;
-    background: rgba(115, 225, 240, 0.06);
+    background: rgba(115, 225, 240, 0.05);
     margin: 0 auto;
     letter-spacing: 0.2px;
     position: relative;
@@ -11050,10 +11050,10 @@ body{margin-top:px;}
 
 .timeline h2,
 .timeline h3 {
-    font-weight: 600;
-    font-size:1.5rem;
+    font-weight: 350;
+    font-size:1.45rem;
     margin-bottom: px;
-	color: #4e91d4;
+	color: #4c7eb0;
 }
 
 .timeline .event {
@@ -11089,7 +11089,7 @@ body{margin-top:px;}
     font-weight: 600;
     font-size: 1.1em;
     min-width: 120px;
-	color: #4e91d4;
+	color: #4c7eb0;
 }
 
 @media (max-width: 767px) {
@@ -11100,8 +11100,8 @@ body{margin-top:px;}
 }
 
 .timeline .event:after {
-    -webkit-box-shadow: 0 0 0 3px #4e91d4;
-    box-shadow: 0 0 0 6px #4e91d4;
+    -webkit-box-shadow: 0 0 0 3px #4c7eb0;
+    box-shadow: 0 0 0 6px #4c7eb0;
     left: -55.8px;
     background: #fff;
     border-radius: 50%;
@@ -11150,10 +11150,10 @@ body{margin-top:px;}
 
 body{margin-top:px;}
 .timeline2 {
-    border-left: 3px solid #e68277;
+    border-left: 3px solid #cfa09b;
     border-bottom-right-radius: px;
     border-top-right-radius: 4px;
-    background: rgba(230, 130, 119, 0.06);
+    background: rgba(207, 160, 155, 0.05);
     margin: 0 auto;
     letter-spacing: 0.2px;
     position: relative;
@@ -11179,10 +11179,10 @@ body{margin-top:px;}
 
 .timeline2 h2,
 .timeline2 h3 {
-    font-weight: 600;
-    font-size:1.5rem;
+    font-weight: 350;
+    font-size:1.45rem;
     margin-bottom: px;
-	color: #4e91d4;
+	color: #4c7eb0;
 }
 
 .timeline2 .event {
@@ -11218,7 +11218,7 @@ body{margin-top:px;}
     font-weight: 600;
     font-size: 1.1em;
     min-width: 120px;
-	color: #4e91d4;
+	color: #4c7eb0;
 }
 
 @media (max-width: 767px) {
@@ -11229,8 +11229,8 @@ body{margin-top:px;}
 }
 
 .timeline2 .event:after {
-    -webkit-box-shadow: 0 0 0 3px #4e91d4;
-    box-shadow: 0 0 0 6px #4e91d4;
+    -webkit-box-shadow: 0 0 0 3px #4c7eb0;
+    box-shadow: 0 0 0 6px #4c7eb0;
     left: -55.8px;
     background: #fff;
     border-radius: 50%;
@@ -11396,7 +11396,7 @@ body{margin-top:px;}
 #fs-frm [type="button"]:hover,
 #fs-frm [type="submit"]:hover,
 #fs-frm [type="reset"]:hover {
-  background-color: #4e91d4;
+  background-color: #4c7eb0;
   color: white;
 }
 
