@@ -11489,8 +11489,8 @@ body{margin-top:px;}
 
 .flip-card {
   background-color: transparent;
-  width: 400px;
-  height: 150px;
+  width: 450px;
+  height: 200px;
   border: 0px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -11498,7 +11498,7 @@ body{margin-top:px;}
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 100%;
   text-align: center;
   transition: transform 0.8s;
