@@ -11613,8 +11613,8 @@ body{margin-top:px;}
  height: 95%;
  /* this part centers content*/
  display: flex;
- align-items: center;
- justify-content: center;
+ align-items: left;
+ justify-content: left;
  .flipper-content {
   display: block;
  }
