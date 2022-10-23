@@ -4288,7 +4288,7 @@ textarea.form-control-lg {
 
 .card:hover {
   z-index: 2;
-  background-color: #f0f6fc;
+  background-color: #FCFCFC;
 }
 
 .card > hr {
@@ -11556,89 +11556,10 @@ body{margin-top:px;}
 
 
 
-
-
-/* entire container, keeps perspective */
-
-.flip-container {
- -moz-transform: perspective(1000px);
- perspective: 1000px;
+.card {
+  background: #fffff;
+  border: 1px solid #888888;
+  color: black;
+  margin-bottom: 2rem;
 }
 
-
-/* flip the pane when hovered */
-
-.flip-container.flip .flipper,
-.flip-container:hover .flipper {
- -webkit-transform: rotateY(180deg);
- -moz-transform: rotateY(180deg);
- transform: rotateY(180deg);
-}
-
-.back,
-.flip-container,
-.front {
- width: 22rem;
- height: 15rem;
-}
-
-
-/* flip speed goes here */
-
-.flipper {
- -webkit-transition: 0.6s;
- -moz-transition: 0.6s;
- transition: 0.6s;
- -webkit-transform-style: preserve-3d;
- -moz-transform-style: preserve-3d;
- transform-style: preserve-3d;
- position: relative;
- width: 95%;
- height: 95%;
- margin: .4rem auto;
-}
-
-
-/* hide back of pane during swap */
-
-.back,
-.front {
- -webkit-backface-visibility: hidden;
- -moz-backface-visibility: hidden;
- backface-visibility: hidden;
- position: absolute;
- top: 0;
- left: 0;
- width: 95%;
- height: 95%;
- /* this part centers content*/
- display: flex;
- align-items: left;
- justify-content: left;
- .flipper-content {
-  display: block;
- }
-}
-
-
-/* front pane, placed above back */
-
-.front {
- z-index: 2;
- /* for firefox 31 */
- -webkit-transform: rotateY(0deg);
- -moz-transform: rotateY(0deg);
- transform: rotateY(0deg);
- .bg-primary {
-  color: white;
- }
-}
-
-
-/* back, initially hidden pane */
-
-.back {
- -webkit-transform: rotateY(180deg);
- -moz-transform: rotateY(180deg);
- transform: rotateY(180deg);
-}
