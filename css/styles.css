@@ -4288,7 +4288,7 @@ textarea.form-control-lg {
 
 .card:hover {
   z-index: 2;
-  background-color: #FCFCFC;
+  background-color: #;
 }
 
 .card > hr {
@@ -11486,79 +11486,9 @@ body{margin-top:px;}
 
 
 
-
-
-
-
-
-.flip-card {
-  background-color: transparent;
-  width: 450px;
-  height: 170px;
-  border: 0px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: absolute;
-  width: 90%;
-  height: 95%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateX(-180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 90%;
-  height: 95%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #fffff;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: white;
-  color: black;
-  transform: rotateX(180deg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .card {
   background: #fffff;
-  border: 1px solid #888888;
+  border: 1px solid #989898;
   color: black;
   margin-bottom: 2rem;
 }
